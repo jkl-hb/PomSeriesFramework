@@ -10,7 +10,7 @@ public class HomePage extends BasePage {
 	WebDriver driver;
 	ElementUtil elementUtil;
 
-	By header = By.cssSelector("h1.private-page__title");
+	By header = By.cssSelector("hsg-nav__inner");
 	By accountname = By.cssSelector("span.account-name ");
 	By logo = By.cssSelector("li>a#nav-primary-home");
 
